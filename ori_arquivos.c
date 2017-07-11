@@ -21,7 +21,7 @@ void abrirArquivo(File **arquivo, char modo, const char *nome_arquivo){
                         exit(-1); 
                      }
                      break;}       
-         case'A': {*arquivo = fopen(nome_arquivo,ab); // leitura e escrita
+         case'A': {*arquivo = fopen(nome_arquivo,ab); // Ambos: leitura e escrita
                      if(*arquivo){
                         printf("!ERRO, Arquivo não foi aberto);
                         exit(-1); 
